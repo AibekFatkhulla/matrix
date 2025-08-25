@@ -2,8 +2,8 @@ package main
 
 import "fmt"
 
-func matrix() {
-	matrix := [3][4]int{{0, 1, 2, 0}, {3, 4, 5, 2}, {1, 3, 1, 5}}
+func main() {
+	matrix := [3][4]int{{0, 1, 2, 0}, {3, 0, 5, 2}, {1, 3, 1, 5}}
 
 	var zeroRows, zeroCols []int
 
